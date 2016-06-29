@@ -3,10 +3,10 @@
 # ~~~~
 
 # Main
-GET        /:path                            controllers.Application.call(path: String)
-PUT        /:path                            controllers.Application.call(path: String)
-DELETE     /:path                            controllers.Application.call(path: String)
-POST       /:path                            controllers.Application.call(path: String)
+GET        /*path                            controllers.Application.call(path: String)
+PUT        /*path                            controllers.Application.call(path: String)
+DELETE     /*path                            controllers.Application.call(path: String)
+POST       /*path                            controllers.Application.call(path: String)
 
 
 # Map static resources from the /public folder to the /assets URL path
