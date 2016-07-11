@@ -26,4 +26,6 @@ libraryDependencies ++= Seq(
 
 parallelExecution in Test := false
 
+play.PlayImport.PlayKeys.playDefaultPort := 9001
+
 ReleasePlugin.releaseSettings
